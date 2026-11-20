@@ -7,7 +7,7 @@
 <h2 class="section-title">🎒 Choisis une activité</h2>
 <div class="grid">
 <section class="card"><div class="emoji">🔤</div><h2>Je lis</h2><p>Je reconnais les sons et les syllabes.</p><button class="btn" onclick="start('lecture')">Jouer avec les sons</button></section>
-<section class="card"><div class="emoji">🔢</div><h2>Je compte</h2><p>Je m'entraîne avec les nombres jusqu'à 20.</p><button class="btn" onclick="start('maths')">Jouer avec les nombres</button></section>
+<section class="card"><div class="emoji">🔢</div><h2>Je compte</h2><p>Je m'entraîne avec les nombres jusqu'à 20.</p><button class="btn" onclick="start('maths')">Jouer avec les nombres</button><p style="margin-top:16px"><a class="btn" style="display:inline-block;text-decoration:none" href="mathematiques-dizaines-unites.html">🧮 Dizaines et unités jusqu’à 99</a></p></section>
 <section class="card"><div class="emoji">🦴</div><h2>Je découvre</h2><p>Je découvre les parties de mon corps.</p><button class="btn" onclick="start('corps')">Découvrir mon corps</button></section>
 </div>
 <section id="game" class="panel hidden" aria-live="polite"><span class="pill">Activité interactive</span><h2 id="gameTitle"></h2><div id="question" class="question"></div><div id="choices"></div><div id="feedback" role="status"></div><button class="btn secondary" id="next" onclick="nextQuestion()" style="display:none">Question suivante</button><div class="back"><button class="btn secondary" onclick="closeGame()">Retour aux activités</button></div></section>
