@@ -1,0 +1,17 @@
+
+{
+  "activites": [
+    {
+      "titre": "Dizaines et unités",
+      "matiere": "Mathématiques",
+      "type": "interactif",
+      "fichier": "mathematiques-dizaines-unites.html"
+    },
+    {
+      "titre": "Mon squelette et moi",
+      "matiere": "Questionner le monde",
+      "type": "interactif",
+      "fichier": "Mon_squelette_CP_CD_boutons_visibles.html"
+    }
+  ]
+}
